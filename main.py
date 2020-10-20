@@ -7,8 +7,8 @@ import vk_api
 token = "TOKEN"
 id_to = 61 # id беседы, у тебя может быть другим
 
-times_send = [datetime.time(hour=3, minute=0), datetime.time(hour=13, minute=5)]
-max_delay = 2
+times_send = [datetime.time(hour=3, minute=0), datetime.time(hour=13, minute=5)] # примерное время отправки(в часовом поясе хоста)
+max_delay = 2 # максимальная рандомная задержка
 
 
 def min_time_sleep(arr_time):
